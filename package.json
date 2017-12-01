@@ -1,0 +1,18 @@
+{
+  "name": "tiny-copy",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "description": "Tiny clipboard util for modern browsers.",
+  "repository": {
+    "url": "https://github.com/AngusFu/tiny-copy.git",
+    "type": "git"
+  },
+  "author": "wemlion <angusfu1126@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "buble": "^0.18.0"
+  },
+  "scripts": {
+    "build": "buble index.js > dist/index.js"
+  }
+}
